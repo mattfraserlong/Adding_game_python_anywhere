@@ -1,0 +1,16 @@
+<h1>Division</h1>
+
+$ rand_one_add = randint(1,20)
+$ rand_two_add = randint(1,100)
+$ div_mod = rand_one_add * rand_two_add
+$ sum_answer = rand_two_add/div_mod
+
+$ target.append(sum_answer)
+
+<p>What is $div_mod divided by $rand_two_add?</p>
+
+
+<form action = "/addanswer" method="POST">
+Choose: <input type="text" name="addchoice" autofocus>
+<input type="submit">
+</form>
